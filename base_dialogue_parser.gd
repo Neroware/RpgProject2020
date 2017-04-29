@@ -148,6 +148,7 @@ func is_dialogue_running():
 	return dialogue_running
 
 
+### This is really obvious. The function just checks whether the parser may read the next line. Basic if-statements for checks within the Game
 func check_if_ready_for_next_line():
 	if(textbox1.is_textbox_ready() == true && textbox2.is_textbox_ready() == true):
 		var a = [false, false, false, false, false]
@@ -172,6 +173,7 @@ func check_if_ready_for_next_line():
 					ready_for_next_line = true
 
 
+### Basically the same as the last function. It just passes all lines until it arrives at the Desicion Mark
 func check_if_passed_to_next_line_after_desicion():
 		if(gui_desicion.get_desicion() != 0):
 			if(gui_desicion.get_desicion() == 1):
