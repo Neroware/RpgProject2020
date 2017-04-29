@@ -219,7 +219,7 @@ func equipe_weapon(par1Weapon):
 	setup_item_list()
 
 
-### Sets an armour in the weapon slot
+### Sets an armour in the armour slot
 func equipe_armour(par1Armour):
 	if(get_node("/root/Game/Game_Node0/Stats_Control").get_armour_slot() != null):
 		var old_armour = get_node("/root/Game/Game_Node0/Stats_Control").get_armour_slot()
