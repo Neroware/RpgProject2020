@@ -1,7 +1,7 @@
 
 extends Node
 
-var item_type = "undefiend"
+var item_type = "undefined"
 var name = "..."
 var consumable = false
 var restores_hp = 0
