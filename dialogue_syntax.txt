@@ -14,15 +14,15 @@ Text
 Speed
 Face picture name
 
--> Player action
+-> Player action (code is executed)
 [PlayerAction]
 Action name
 
--> Char action
+-> Char action (code is executed)
 [CharAction]
 Action name
 
--> Obj action
+-> Obj action (code is executed)
 [ObjAction]
 Action name
 
