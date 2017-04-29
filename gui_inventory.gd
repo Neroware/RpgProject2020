@@ -1,3 +1,8 @@
+### This is the entire script for the Inventory. Basically The GUI for the Inventory IS the entire Inventory. There is no separation.
+### Items which are stored in the inventory are instances of the class Item (item.gd) that I also uploaded.
+### There are different item groups. Each item group (like Weapons or Food) has a fitting parent node within the tree of the inventory.
+### If an item gets added there is just a new child at a parent node like e.g. for the Stone Sword: Item_Container/Weapons/StoneSword
+### This class also handles how the sprites of the items appear and the player's input.
 
 extends Node2D
 
