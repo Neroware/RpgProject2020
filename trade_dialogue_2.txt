@@ -1,0 +1,74 @@
+[Say]
+0
+040057
+Did you change your mind?
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Remember, I'll pay you 3 LEVELS for each ITEM.
+1.0
+big_normal
+True
+[Choice]
+Shall the items be sold?
+You bet
+No way!
+[Desicion1]
+[Say]
+0
+040057
+It was a pleasure making business with you.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+It may not seem like it,
+1.0
+big_normal
+True
+[Say]
+0
+040057
+but actually there are a lot of customers here.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+They only come one at a time. Strange...
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Of course, here are your LEVELS.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Goodbye!
+1.0
+big_normal
+True
+[ObjAction]
+trade_items
+False
+[End]
+[Desicion2]
+[Say]
+0
+040057
+If you change your mind, feel free to come back!
+1.0
+big_normal
+True
+[End]

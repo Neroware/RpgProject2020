@@ -1,0 +1,112 @@
+[Say]
+0
+040057
+Hey you!
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Welcome to the WASD-Shop!
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Unfortunatly, I'm not selling anything at the moment.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+If you want, I can buy some items from you.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+You'll need some money after THE GREAT GATE.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+I can give you 3 LEVELS for each item.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Now, what do you say?
+1.0
+big_normal
+True
+[Choice]
+Shall the items be sold?
+You bet
+No way!
+[Desicion1]
+[Say]
+0
+040057
+It was a pleasure making business with you.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+It may not seem like it,
+1.0
+big_normal
+True
+[Say]
+0
+040057
+but actually there are a lot of customers here.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+They only come one at a time. Strange...
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Of course, here are your LEVELS.
+1.0
+big_normal
+True
+[Say]
+0
+040057
+Goodbye!
+1.0
+big_normal
+True
+[ObjAction]
+trade_items
+False
+[End]
+[Desicion2]
+[Say]
+0
+040057
+If you change your mind, feel free to come back!
+1.0
+big_normal
+True
+[ObjAction]
+set_trademan_dialogue_1
+False
+[End]
