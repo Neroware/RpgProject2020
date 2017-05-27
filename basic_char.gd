@@ -101,24 +101,24 @@ func walk(par1Speed, par2Direction, par3AnimateWalking):
 	current_orientation = par2Direction
 	if(par2Direction == "right"):
 		if(par3AnimateWalking == true):
-			set_current_scripted_animation("walk_side")
+			set_current_animation("walk_side")
 		move(Vector2(par1Speed, 0))
 		set_orientation("right")
 	
 	elif(par2Direction == "left"):
 		if(par3AnimateWalking == true):
-			set_current_scripted_animation("walk_side")
+			set_current_animation("walk_side")
 		move(Vector2(-par1Speed, 0))
 		set_orientation("left")
 	
 	elif(par2Direction == "down"):
 		if(par3AnimateWalking == true):
-			set_current_scripted_animation("walk_down")
+			set_current_animation("walk_down")
 		set_orientation("down")
 		move(Vector2(0, par1Speed))
 	
 	elif(par2Direction == "up"):
 		if(par3AnimateWalking == true):
-			set_current_scripted_animation("walk_up")
+			set_current_animation("walk_up")
 		set_orientation("up")
 		move(Vector2(0, -par1Speed))
