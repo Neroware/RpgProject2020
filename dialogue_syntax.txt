@@ -1,0 +1,40 @@
+This is the Syntax of the language for dialogues:
+
+-> Write in normal textbox:
+[Write]
+Color
+Text
+Speed
+
+-> basic character talking in a special textbox
+[Say]
+Actor index (0 to 4)
+Color
+Text
+Speed
+Face picture name
+
+-> Player action (code is executed)
+[PlayerAction]
+Action name
+
+-> Char action (code is executed)
+[CharAction]
+Action name
+
+-> Obj action (code is executed)
+[ObjAction]
+Action name
+
+-> End dialogue
+[End]
+
+-> Choice
+[Choice]
+	-> File is parsed to [Desicion1] or [Desicion2]
+
+At the end of every line has to be a mark whether you need btn input for the next main line
+this will be 'True' or 'False'
+
+WARNING:
+There are currently no empty lines allowed!
