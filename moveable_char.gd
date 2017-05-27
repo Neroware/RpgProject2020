@@ -13,11 +13,13 @@ func _ready():
 	set_fixed_process(true)
 
 
+### Starts the movement of the Char
 func start_moving():
 	target_pos = waypoints[current_waypoint_index]
 	moving = true
 
 
+### Algorithm for the movement to the waypoints selected
 func _fixed_process(delta):
 	if(moving == true):
 		if(is_waypoint_reached() == false):
@@ -46,6 +48,7 @@ func _fixed_process(delta):
 					target_pos = waypoints[current_waypoint_index]
 
 
+### calculates the movement vector and let's the KinematicBody move
 func move_to_current_waypoint(delta):
 	var movement_v = Vector2(0, 0)
 	var current_pos = get_pos()
@@ -75,6 +78,7 @@ func move_to_current_waypoint(delta):
 	move(movement_v)
 
 
+### Returns 'true' if the current waypoint in the MoveableChar's array is reached
 func is_waypoint_reached():
 	if(get_pos().x - 1 <= target_pos.x && get_pos().x + 1 >= target_pos.x):
 		if(get_pos().y - 1 <= target_pos.y && get_pos().y + 1 >= target_pos.y):
@@ -85,13 +89,16 @@ func is_waypoint_reached():
 		return false
 
 
+### Returns 'true' if there is movement
 func is_moving():
 	return moving
 
 
+### Returns the array of waypoints as an array of 2d-vectors
 func get_waypoint_array():
 	return waypoints
 
 
+### Adds a waypoint to the array
 func set_waypoint_with_index(par1Waypoint, par2Index):
 	waypoints[par2Index] = par1Waypoint
