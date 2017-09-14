@@ -1,5 +1,5 @@
 # Project2020
-A RPG game for Pixel Art Lovers. Finally a game that doesn't judge you for playing LIKE YOU WANT... (That's my motto)
+A RPG game for Pixel Art Lovers. Finally a game that doesn't judge you for playing LIKE YOU WANT... (That's our motto)
 
 "Project2020" is only the working title, I already have some ideas for the name but I'm not quite sure for now.
 I'm thinking about giving the game the title "Young Earth" but we'll see...
