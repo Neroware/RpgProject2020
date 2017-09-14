@@ -20,6 +20,6 @@ A new pixel adventure, now in development!
 ![Neroware](https://raw.githubusercontent.com/Neroware/Neroware-Project2020/master/neroware_main_logo_small.png)
 designed and programmed by Neroware
 
-Download for Mediafire: Click [here!](https://www.youtube.com/redirect?q=https%3A%2F%2Fwww.mediafire.com%2F%3Fg9rerucgsdl79su&event=desc&redir_token=33kPd_hOgzMAYeTckgQMY7bz-gZ8MTUwNTQ4ODEwNkAxNTA1NDAxNzA2)
+Download for Mediafire: Click [here!](http://www.mediafire.com/file/g9rerucgsdl79su/Neroware_Project2020_Build_31_07_2017.zip)
 
 #creative
