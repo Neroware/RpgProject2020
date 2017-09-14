@@ -9,6 +9,7 @@ Every month, we release a video about our progress on our [Youtube Channel](http
 ![Title Screen](https://raw.githubusercontent.com/Neroware/Neroware-Project2020/master/title.png)
 
 ![Choose a name!](https://raw.githubusercontent.com/Neroware/Neroware-Project2020/master/Choose_a_name.png)
+
 Choose your name and enter an astonishing Adventure!
 
 ![Fight the Guards](https://raw.githubusercontent.com/Neroware/Neroware-Project2020/master/interaction.png)
