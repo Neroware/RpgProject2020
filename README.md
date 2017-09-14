@@ -5,5 +5,6 @@ A RPG game for Pixel Art Lovers. Finally a game that doesn't judge you for playi
 
 The project itself is a 2D Pixel Art RPG Adventure Game made with the new Godot Game Engine. #WaitingForGodot
 
-Every month, we release a video about our progress at our [yt-channel](https://www.youtube.com/channel/UCPEsDMd9W6qJwaMhJhkUFAg)
+Every month, we release a video about our progress on our [Youtube Channel](https://www.youtube.com/channel/UCPEsDMd9W6qJwaMhJhkUFAg)
+
 
