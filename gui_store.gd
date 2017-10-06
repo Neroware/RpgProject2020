@@ -283,7 +283,7 @@ func is_active():
 	return active
 
 
-### After pressing the Action Button on an Item the GUI asks in an additional dialogue if you item really shall be bought
+### After pressing the Action Button on an Item the GUI asks in an additional dialogue if this item really shall be bought
 ### This function handles this small dialogue (also shown in the video ;) )
 func check_buy():
 	if(ready_for_input2 == true):
@@ -334,7 +334,7 @@ func buy_item(par1Selection):
 	target.add_child(old_item)
 	old_item.set_owner(target)
 	
-	## There is now a free space for a new item instance (we need a new one that store can sell ;) )
+	## There is now a free space for a new item instance (we need a new one the store can sell ;) )
 	if(par1Selection == 0):
 		var new_item = instance_object(item, "StoreItem1", items)
 		new_item.import_array(item1_array)
@@ -356,5 +356,5 @@ func buy_item(par1Selection):
 		new_item.set_sprite_pos(Vector2(-36, 57))
 		item4 = new_item
 	
-	## Removes the Levels (LV) form the stats (everything costs money)
+	## Removes the Levels (LV) from the stats (everything costs money)
 	stats_control.add_levels(-item_price_array[selection])
