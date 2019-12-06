@@ -1,10 +1,9 @@
-# Project2020
-An RPG for Pixel Art Lovers. Finally a game that doesn't judge you for playing LIKE YOU WANT... (That's our motto)
+# Project 2020 (Young Earth)
 
-"Project2020" is only the working title, we'll come up with a real name when development is nearly finished!
+This game was my first try of creating a rpg game.
 
 The project itself is a 2D Pixel Art RPG Adventure Game made with the new Godot Game Engine. #WaitingForGodot
-Every month, we release a video about our progress on our [Youtube Channel](https://www.youtube.com/channel/UCPEsDMd9W6qJwaMhJhkUFAg)
+Check out my Devlog at Youtube:  [Youtube Channel](https://www.youtube.com/channel/UCPEsDMd9W6qJwaMhJhkUFAg)
 
 ![Title Screen](https://raw.githubusercontent.com/Neroware/Neroware-Project2020/master/png1_titlescreen.png)
 
